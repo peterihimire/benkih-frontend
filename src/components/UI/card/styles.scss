@@ -1,0 +1,43 @@
+.service-card {
+  background-color: var(--white);
+  box-shadow: 0px 15px 26px rgba(1, 73, 159, 0.05);
+  border-radius: 7px;
+  padding: 30px;
+  position: relative;
+
+  .gloss-icon {
+    position: absolute;
+    top: -50px;
+    right: 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: var(--head-txt);
+    height: 80px;
+    max-width: 220px;
+
+    @media screen and (max-width: 700px) {
+      max-width: 220px;
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    opacity: 0.7;
+    color: var(--pry-color);
+    margin-bottom: 20px;
+    height: 160px;
+  }
+
+  .read-more {
+    color: var(--pry-color);
+    text-decoration: underline;
+    position: absolute;
+    bottom: 30px;
+    background-color: transparent;
+  }
+}

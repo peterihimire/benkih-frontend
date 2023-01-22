@@ -1,0 +1,27 @@
+.whyChoose {
+  position: relative;
+  background-color: #fff;
+
+  // FOR WHY CHOOSE SECTION
+  .custom-shape-divider-bottom-1673624246 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1673624246 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-bottom-1673624246 .shape-fill {
+    fill: #dde6fa;
+  }
+}

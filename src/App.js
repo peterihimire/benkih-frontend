@@ -1,12 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import AllRoutes from "./routes/AllRoutes";
+import { Provider } from "react-redux";
+import initStore from "./redux/store";
 
-function App() {
+export const store = initStore({});
+
+const App = () => {
   return (
-    <div className="App">
-    <h1>Benkih-frontend</h1>
-    </div>
+    <Provider store={store}>
+      <div>
+        <AllRoutes />
+      </div>
+    </Provider>
   );
-}
+};
 
 export default App;

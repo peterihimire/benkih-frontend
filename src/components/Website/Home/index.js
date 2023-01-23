@@ -1,8 +1,9 @@
 import React from "react";
 import HomeHero from "./hero";
-import OneWallet from "./oneWallet";
+// import OneWallet from "./ourFeature";
 import WhyChoose from "./whyChoose";
-import Testimonial from "./testimonials";
+import BuildingModern from "./buildingModern";
+// import Testimonial from "./testimonials";
 import { Helmet } from "react-helmet";
 import "./styles.scss";
 
@@ -10,14 +11,15 @@ const HomePage = () => {
   return (
     <div className={`homepage`}>
       <Helmet>
-        <title>Home | HalaDigital</title>
+        <title>Home | Benkih</title>
       </Helmet>
-      {/* <div className="wrapper"> */}
+
       <HomeHero />
-      <OneWallet />
+      <BuildingModern />
+
       <WhyChoose />
-      <Testimonial />
-      {/* </div> */}
+      {/* <OneWallet />
+      <Testimonial /> */}
     </div>
   );
 };

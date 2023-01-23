@@ -63,6 +63,12 @@ body.dark-mode {
           color: var(--dark);
           font-weight: bolder;
           font-size: 25px;
+           font-weight: 300;
+
+          span {
+            font-size: 25px !important;
+            font-weight: 900;
+          }
         }
       }
 
@@ -142,9 +148,15 @@ body.light-mode {
         > a {
           width: 102px;
           // color: themed("logo");
-          color: var(--dark);
+          color: var(--main-color);
           font-weight: bolder;
           font-size: 25px;
+           font-weight: 300;
+
+          span {
+            font-size: 25px !important;
+            font-weight: 900;
+          }
         }
       }
 

@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./styles/main.scss";
+import NProgress from "nprogress";
+import "swiper/css/pagination";
+// import "../styles/globals.scss";
+import "swiper/css";
+import "swiper/css/bundle";
+import "nprogress/nprogress.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

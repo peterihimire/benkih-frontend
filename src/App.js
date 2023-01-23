@@ -9,9 +9,7 @@ export const store = initStore({});
 const App = () => {
   return (
     <Provider store={store}>
-      <div>
-        <AllRoutes />
-      </div>
+      <AllRoutes />
     </Provider>
   );
 };

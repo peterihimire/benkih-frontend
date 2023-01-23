@@ -7,31 +7,25 @@ import "./styles.scss";
 const Hero = () => {
   return (
     <section className={`hero`}>
-     
       {/* The 'wrapper' style without the curly braces is coming from the config scss file  */}
       <div className="wrapper">
         <div className={`container`}>
           <div className={`left`}>
             <h1>
-              One Stop <br /> Platform for you.
+              We're building <span>software</span> to help
             </h1>
 
-            <ul>
-              <li>Digital Currency Exchange</li>
-              <li>Bulk SMS</li>
-              <li>Airtime & Data Bundle</li>
-              <li>Cable TV Subscription</li>
-              <li>Electricity Bill</li>
-              <li>WAEC Result Checker PIN</li>
-              <li>Naira and Crypto Currency Accepted.</li>
-            </ul>
+            <p>
+              Celebrated delightful an especially increasing instrument am.
+              Indulgence contrasted sufficient to unpleasant in in insensible
+              favourable.
+            </p>
 
             <div className={`subscribe`}>
-              <button className="btn-primary btn-block">Login</button>
-              <button className="btn-secondary btn-block">Register</button>
+              <button className="btn-primary btn-block">Get Started</button>
             </div>
           </div>
-          <div className={`rightt`}>
+          <div className={`rightt indicator`}>
             <img src={heroImg} alt="" />
           </div>
         </div>

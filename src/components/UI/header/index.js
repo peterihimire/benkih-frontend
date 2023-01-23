@@ -47,7 +47,7 @@ const Header = ({ isOpen, clicked }) => {
       <div className="wrapper">
         <div className="logo">
           <Link to="/">
-            HalaDigital
+            Benk<span>ih</span>
             {/* <img src={logo} alt='' /> */}
             {/* <Logo /> */}
           </Link>

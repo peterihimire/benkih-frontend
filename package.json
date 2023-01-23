@@ -20,10 +20,12 @@
     "react-file-drop": "^3.1.6",
     "react-helmet": "^6.1.0",
     "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.7.0",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.2",
+    "swiper": "^8.4.6",
     "use-dark-mode": "^2.3.1",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"

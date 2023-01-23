@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./styles.scss";
-import Header from "../../components/UI/dashboardHeader";
-import Backdrop from "../../components/UI/backdrop";
+import Header from "../../components/ui/dashboardHeader";
+import Backdrop from "../../components/ui/backdrop";
 // import Footer from "../../components/ui/footer";
-import Sidebar from "../../components/UI/dashboardNav";
-import DashboardHeader from "../../components/UI/dashboardMainHeader";
+import Sidebar from "../../components/ui/dashboardNav";
+import DashboardHeader from "../../components/ui/dashboardMainHeader";
 import { Outlet } from "react-router-dom";
 
 // import { useRouter } from "next/router";

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Header from "../../components/UI/header";
-import Backdrop from "../../components/UI/backdrop";
+import Header from "../../components/ui/header";
+import Backdrop from "../../components/ui/backdrop";
 import { useLocation } from "react-router-dom";
-import Footer from "../../components/UI/footer";
+import Footer from "../../components/ui/footer";
 import { Outlet } from "react-router-dom";
 
 import "./styles.scss";

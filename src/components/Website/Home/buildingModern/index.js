@@ -9,7 +9,10 @@ const BuildingModern = () => {
         <div className={`container`}>
           <div className={`left`}>
             <div className={`left-top`}>
-              <h3>We're Building Modern and High Software</h3>
+              <h4>
+                We're Building Modern <br />
+                And High Software
+              </h4>
               <p>
                 Both rest of know draw fond post as. It agreement defective to
                 excellent. Feebly do engage of narrow. Extensive repulsive
@@ -38,15 +41,20 @@ const BuildingModern = () => {
                 </li>
               </ul>
             </div>
+
+            {/* <hr /> */}
+
             <div className={`left-bottom`}>
-              <h5>We're Building Modern and High Software</h5>
+              <h4>
+                Outstanding annual results from our <br /> awesome Team
+              </h4>
             </div>
           </div>
           <div className={`right`}>
             <div className={`built-grid`}>
               <div className={`grid-item1`}>
                 <CheckBox />
-                <h3>Ticket Manager</h3>
+                <h5>Ticket Manager</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little
                   remain no lively
@@ -54,7 +62,7 @@ const BuildingModern = () => {
               </div>
               <div className={`grid-item2`}>
                 <CheckBox />
-                <h3>Ticket Manager</h3>
+                <h5>Live Messaging</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little
                   remain no lively
@@ -62,7 +70,7 @@ const BuildingModern = () => {
               </div>
               <div className={`grid-item3`}>
                 <CheckBox />
-                <h3>Ticket Manager</h3>
+                <h5>Email Workflow</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little
                   remain no lively
@@ -70,7 +78,7 @@ const BuildingModern = () => {
               </div>
               <div className={`grid-item4`}>
                 <CheckBox />
-                <h3>Ticket Manager</h3>
+                <h5>File Upload</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little
                   remain no lively

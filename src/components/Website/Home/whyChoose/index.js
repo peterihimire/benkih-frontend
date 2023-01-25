@@ -1,6 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay } from "swiper";
+import { CheckBox } from "@mui/icons-material";
+import FeatureCard from "../../../ui/featureCard";
 import "./styles.scss";
 
 SwiperCore.use([Pagination]);
@@ -16,11 +18,49 @@ const WhyChoose = () => {
     },
   };
 
+  const features = [
+    {
+      id: "01",
+      title: "App Integration",
+      exerpt:
+        "Learning day desirous informed expenses material returned six the.",
+      icon: <CheckBox />,
+    },
+    {
+      id: "02",
+      title: "Color Schemes",
+      exerpt:
+        "Learning day desirous informed expenses material returned six the.",
+      icon: <CheckBox />,
+    },
+    {
+      id: "03",
+      title: "High Resolution",
+      exerpt:
+        "Learning day desirous informed expenses material returned six the.",
+      icon: <CheckBox />,
+    },
+    {
+      id: "04",
+      title: "Drag and Drop",
+      exerpt:
+        "Learning day desirous informed expenses material returned six the.",
+      icon: <CheckBox />,
+    },
+    {
+      id: "05",
+      title: "Mobile Responsive",
+      exerpt:
+        "Learning day desirous informed expenses material returned six the.",
+      icon: <CheckBox />,
+    },
+  ];
+
   return (
     <section className={`whyChoose`}>
       <div className="wrapper">
-        <div className="choose-head">
-          <h2>Our Feature</h2>
+        <div className={`choose-head`}>
+          <h3>Our Features</h3>
           <p>
             Learning day desirous informed expenses material returned six the.
             She enabled invited exposed him another. Reasonably conviction
@@ -29,82 +69,31 @@ const WhyChoose = () => {
           </p>
         </div>
         <Swiper
-          spaceBetween={0}
+          spaceBetween={30}
           slidesPerView={3}
           pagination={pagination}
           className={"wrappe"}
           loop
           autoHeight={true}
           // centeredSlides={false}
-          // autoplay={true}
           speed={3000}
           autoplay={{
             delay: 1000,
             disableOnInteraction: false,
           }}
         >
-          <SwiperSlide>
-            <div className="wrappe">
-              <h1>Crowdfunding Real Estate Investment in Diaspora</h1>
-              <p>
-                Leveraging on tusted Gateway to Financial Freedom. Fast and
-                flexible finance to great, stable returns for investors. . Get
-                started quickly and make your way.
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={"wrappe"}>
-              <h1>Prowdfunding Real Estate Investment in Diaspora</h1>
-              <p>
-                Leveraging on tusted Gateway to Financial Freedom. Fast and
-                flexible finance to great, stable returns for investors. . Get
-                started quickly and make your way.
-              </p>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="wrappe">
-              <h1>Trowdfunding Real Estate Investment in Diaspora</h1>
-              <p>
-                Leveraging on tusted Gateway to Financial Freedom. Fast and
-                flexible finance to great, stable returns for investors. . Get
-                started quickly and make your way.
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="wrappe">
-              <h1>Crowdfunding Real Estate Investment in Diaspora</h1>
-              <p>
-                Leveraging on tusted Gateway to Financial Freedom. Fast and
-                flexible finance to great, stable returns for investors. . Get
-                started quickly and make your way.
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={"wrappe"}>
-              <h1>Prowdfunding Real Estate Investment in Diaspora</h1>
-              <p>
-                Leveraging on tusted Gateway to Financial Freedom. Fast and
-                flexible finance to great, stable returns for investors. . Get
-                started quickly and make your way.
-              </p>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="wrappe">
-              <h1>Trowdfunding Real Estate Investment in Diaspora</h1>
-              <p>
-                Leveraging on tusted Gateway to Financial Freedom. Fast and
-                flexible finance to great, stable returns for investors. . Get
-                started quickly and make your way.
-              </p>
-            </div>
-          </SwiperSlide>
+          {features.map((feature, index) => {
+            return (
+              <SwiperSlide>
+                <FeatureCard
+                  title={feature.title}
+                  content={feature.exerpt}
+                  id={feature.id}
+                  icon={feature.icon}
+                />
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
         <div className={`custom-pag`}></div>
       </div>

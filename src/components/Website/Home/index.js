@@ -16,7 +16,6 @@ const HomePage = () => {
 
       <HomeHero />
       <BuildingModern />
-
       <WhyChoose />
       {/* <OneWallet />
       <Testimonial /> */}

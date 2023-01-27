@@ -1,0 +1,16 @@
+// mine
+.input-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100% !important;
+
+  .icon-wrapper {
+    position: absolute;
+    right: 10px;
+    bottom: 15%;
+    padding: 10px 30px;
+    background: var(--main-color);
+  }
+}

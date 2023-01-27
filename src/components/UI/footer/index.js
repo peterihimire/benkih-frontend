@@ -5,6 +5,7 @@ import { ReactComponent as Facebook } from "../../../assets/images/facebook.svg"
 import { ReactComponent as Instagram } from "../../../assets/images/instagram.svg";
 import { ReactComponent as Youtube } from "../../../assets/images/youtube.svg";
 import { ReactComponent as Twitter } from "../../../assets/images/twitter.svg";
+import Input from "../footerInput";
 
 import "./styles.scss";
 
@@ -18,6 +19,23 @@ const Footer = () => {
               Benk<span>ih</span>
               {/* <img src={logo} alt='' /> */}
             </Link>
+          </div>
+
+          <div className={`newsletter`}>
+            <form className={`form`}>
+              <div className={`formGroup`}>
+                <Input
+                  type="email"
+                  id="email"
+                  // required
+                  name="email"
+                  placeholder="Join the waiting list (Your email)"
+                  src="/images/send-icon.svg"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+            </form>
           </div>
         </div>
         <div className={`second`}>

@@ -243,28 +243,57 @@ img {
   }
 }
 
-input:not([type="radio"]),
-input:not([type="checkbox"]),
-select,
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font-size: 1rem;
-  outline: none;
-  color: inherit;
-  width: 100%;
-  font-family: inherit;
-  border: 1px solid #dadada;
-  background: var(--white);
-  border-radius: 5px !important;
-  height: 55px !important;
-  transition: all 0.3s ease-in-out;
-  padding: 12px;
-  color: #65676f;
+body.dark-mode {
+  input:not([type="radio"]),
+  input:not([type="checkbox"]),
+  select,
+  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    outline: none;
+    color: inherit;
+    width: 100%;
+    font-family: inherit;
+    border: 1px solid #dadada;
+    background: var(--black);
+    border-radius: 5px !important;
+    height: 50px !important;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    color: var(--txt-dark);
 
-  &:focus {
-    border: 1px solid var(--main-color);
+    &:focus {
+      border: 1px solid var(--main-color);
+    }
+  }
+}
+
+body.light-mode {
+  input:not([type="radio"]),
+  input:not([type="checkbox"]),
+  select,
+  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    outline: none;
+    color: inherit;
+    width: 100%;
+    font-family: inherit;
+    border: 1px solid #dadada;
+    background: var(--white);
+    border-radius: 5px !important;
+    height: 50px !important;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    color: var(--txt-light);
+
+    &:focus {
+      border: 1px solid var(--main-color);
+    }
   }
 }
 

@@ -22,6 +22,9 @@ const Footer = () => {
           </div>
 
           <div className={`newsletter`}>
+            <p>
+              Subscribe to our weekly newsletter, by entering your email below.
+            </p>
             <form className={`form`}>
               <div className={`formGroup`}>
                 <Input
@@ -29,7 +32,7 @@ const Footer = () => {
                   id="email"
                   // required
                   name="email"
-                  placeholder="Join the waiting list (Your email)"
+                  placeholder="Enter your email..."
                   src="/images/send-icon.svg"
                   alt=""
                   loading="lazy"
@@ -39,9 +42,9 @@ const Footer = () => {
           </div>
         </div>
         <div className={`second`}>
-          <div className={``}>
+          <div className={`quick-links-wrapper`}>
             <h3>Company</h3>
-            <ul className="">
+            <ul className={`quick-links`}>
               <li>
                 <Link to="/">Home</Link>
               </li>
@@ -57,28 +60,23 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className={``}>
+          <div className={`location-wrapper`}>
             <h3>Location</h3>
-            <ul className="">
+            <ul className={`location-list`}>
               <li>
-                <Link to="/">Showcases</Link>
+                <span>Abuja :</span> No. 2 Iwopin close, area 1 Garki, Abuja.
               </li>
+
               <li>
-                <Link to="/products-services">Products and Services</Link>
-              </li>
-              <li>
-                <Link to="/our-process">Our Process</Link>
-              </li>
-              <li>
-                <Link to="/contact-us">Contact Us</Link>
+                <span>Lagos :</span> No. 6 Oyediran street, Ikeja, Lagos.
               </li>
             </ul>
           </div>
 
-          <div className={``}>
+          <div className={`social-wrapper`}>
             <h3>Join our community</h3>
             <p>we are welcoming some new faces at Benkih to give you</p>
-            <div className="">
+            <div className={`social-list`}>
               <a
                 href="https://www.facebook.com/omniswift"
                 target="_blank"

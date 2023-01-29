@@ -1,16 +1,14 @@
 import React, { useState } from "react";
-import {
-  BrowserRouter,
-  Route,
-  Routes,
-
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import WebsiteLayout from "../layouts/website";
 // import AuthLayout from "../layouts/auth";
 // import DashboardLayout from "../layouts/dashboard";
 // import DashboardSettingsLayout from "../layouts/dashboardSettings";
 import { HomePage } from "../pages/home";
+import { ContactPage } from "../pages/contactUs";
+import { AboutPage } from "../pages/aboutUs";
+import { ProcessPage } from "../pages/ourProcess";
 // import { LoginPage } from "../pages/login";
 // import { AdminLogin } from "../pages/adminLogin";
 
@@ -40,8 +38,11 @@ const AllRoutes = () => {
 
         <Route element={<WebsiteLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="pricing" element={<HomePage />} />
-          <Route path="contact-us" element={<HomePage />} />
+          <Route path="our-process" element={<ProcessPage />} />
+          <Route path="contact-us" element={<ContactPage />} />
+          <Route path="about-us/who-we-are" element={<AboutPage />} />
+          <Route path="about-us/our-vision" element={<AboutPage />} />
+
           <Route path="register" element={<HomePage />} />
           {/* <Route path="login" element={<LoginPage />} />
           <Route path="/admin/login" element={<AdminLogin />} /> */}

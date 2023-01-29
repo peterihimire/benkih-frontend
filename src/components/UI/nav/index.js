@@ -46,7 +46,7 @@ const Nav = ({ isOpen }) => {
               openAbout(!about);
             }}
           >
-            <span>About</span>
+            <span>About Us</span>
             {about ? <KeyboardArrowDown /> : <KeyboardArrowDown />}
           </button>
 
@@ -68,13 +68,13 @@ const Nav = ({ isOpen }) => {
           </div>
         </li>
         <li>
-          <NavLink to="/pricing" activeclassname="active">
-            Pricing
+          <NavLink to="/our-process" activeclassname="active">
+            Our Process
           </NavLink>
         </li>
         <li>
           <NavLink to="/contact-us" activeclassname="active">
-            Contact
+            Contact Us
           </NavLink>
         </li>
 

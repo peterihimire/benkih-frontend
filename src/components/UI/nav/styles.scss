@@ -85,7 +85,8 @@ body.dark-mode {
         .active {
           color: var(--main-color) !important;
           // font-size: 16px;
-          font-family: Poppins-Bold, sans-serif;
+          // font-family: Poppins-Bold, sans-serif;
+          font-weight: 700;
         }
 
         &.hasDrop {
@@ -193,9 +194,9 @@ body.dark-mode {
             .dropdownContainer {
               width: auto;
               display: flex;
-              // background: #464545;
+              background: #2a2a2a;
               // background-color: var(--black);
-              background: var(--gray-txt);
+              // background: var(--gray-txt);
               border-radius: 2px;
               box-shadow: var(--box-shadow-dark);
               padding: 10px 0px;
@@ -219,6 +220,11 @@ body.dark-mode {
 
               > li {
                 height: var(--full);
+                border-top: rgba(220, 220, 220, 0.053) solid 1px;
+
+                &:last-of-type {
+                  border-bottom: rgba(220, 220, 220, 0.053) solid 1px;
+                }
 
                 @media (max-width: 1275px) {
                   height: auto;
@@ -239,7 +245,7 @@ body.dark-mode {
                   }
 
                   &:hover {
-                    background: var(--black);
+                    background: opacify($color: #acaaaa, $amount: 1);
                     color: var(--main-color);
                     padding: 10px 20px;
                     border-radius: 0px;
@@ -381,7 +387,8 @@ body.light-mode {
         .active {
           color: var(--main-color) !important;
           // font-size: 16px;
-          font-family: Poppins-Bold, sans-serif;
+          // font-family: Poppins-Bold, sans-serif;
+          font-weight: 700;
         }
 
         &.hasDrop {
@@ -515,6 +522,11 @@ body.light-mode {
 
               > li {
                 height: var(--full);
+                border-top: rgba(220, 220, 220, 0.162) solid 1px;
+
+                &:last-of-type {
+                  border-bottom: rgba(220, 220, 220, 0.162) solid 1px;
+                }
 
                 @media (max-width: 1275px) {
                   height: auto;

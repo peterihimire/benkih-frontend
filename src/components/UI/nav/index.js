@@ -10,6 +10,10 @@ import "./styles.scss";
 const Nav = ({ isOpen }) => {
   const location = useLocation();
   console.log(location);
+  console.log(location.pathname.split("/")[1]);
+  const fullPath = location.pathname;
+  let pathUrl = location.pathname.split("/")[1];
+
   const darkMode = useDarkMode(false);
   console.log(darkMode);
 
@@ -46,7 +50,11 @@ const Nav = ({ isOpen }) => {
               openAbout(!about);
             }}
           >
-            <span>About Us</span>
+            <span
+              className={`${fullPath.includes("about-us") ? "active" : ""}`}
+            >
+              About Us
+            </span>
             {about ? <KeyboardArrowDown /> : <KeyboardArrowDown />}
           </button>
 

@@ -1,0 +1,26 @@
+.oneWallet {
+  background-color: #dde6fa;
+  position: relative;
+  // FOR ONE WALLET PAGE
+  .custom-shape-divider-bottom-1673624946 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1673624946 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-bottom-1673624946 .shape-fill {
+   fill: #fff;
+  }
+}

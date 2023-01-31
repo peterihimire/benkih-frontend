@@ -8,6 +8,9 @@ import WebsiteLayout from "../layouts/website";
 import { HomePage } from "../pages/home";
 import { ContactPage } from "../pages/contactUs";
 import { AboutPage } from "../pages/aboutUs";
+import { OurVisionPage } from "../pages/ourVision";
+import { WhoWeArePage } from "../pages/whoWeAre";
+
 import { ProcessPage } from "../pages/ourProcess";
 // import { LoginPage } from "../pages/login";
 // import { AdminLogin } from "../pages/adminLogin";
@@ -40,8 +43,8 @@ const AllRoutes = () => {
           <Route index element={<HomePage />} />
           <Route path="our-process" element={<ProcessPage />} />
           <Route path="contact-us" element={<ContactPage />} />
-          <Route path="about-us/who-we-are" element={<AboutPage />} />
-          <Route path="about-us/our-vision" element={<AboutPage />} />
+          <Route path="about-us/who-we-are" element={<WhoWeArePage />} />
+          <Route path="about-us/our-vision" element={<OurVisionPage />} />
 
           <Route path="register" element={<HomePage />} />
           {/* <Route path="login" element={<LoginPage />} />

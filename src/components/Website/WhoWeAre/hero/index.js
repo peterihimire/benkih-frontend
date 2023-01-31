@@ -6,18 +6,18 @@ import "./styles.scss";
 
 const Hero = () => {
   return (
-    <section className={`contacthero`}>
+    <section className={`ourhero`}>
       {/* The 'wrapper' style without the curly braces is coming from the config scss file  */}
       <div className="wrapper">
         <div className={`container`}>
           <div className={`left`}>
-            <h4>Contact Us</h4>
+            <h4>Who We Are</h4>
           </div>
           <div className={`rightt`}>
             <span>
               <Link to="/">Home</Link>
             </span>
-            <div>&gt; Contact Us</div>
+            <div>&gt; Who We Are</div>
           </div>
         </div>
       </div>

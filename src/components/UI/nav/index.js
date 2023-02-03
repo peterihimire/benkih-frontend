@@ -55,7 +55,15 @@ const Nav = ({ isOpen }) => {
             >
               About Us
             </span>
-            {about ? <KeyboardArrowDown /> : <KeyboardArrowDown />}
+            {about ? (
+              <KeyboardArrowDown
+                className={`${fullPath.includes("about-us") ? "active" : ""}`}
+              />
+            ) : (
+              <KeyboardArrowDown
+                className={`${fullPath.includes("about-us") ? "active" : ""}`}
+              />
+            )}
           </button>
 
           <div className={`dropdownMenu dropResources ${about ? "show" : ""}`}>

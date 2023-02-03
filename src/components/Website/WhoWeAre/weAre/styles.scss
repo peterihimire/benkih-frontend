@@ -1,15 +1,33 @@
-.buildingModern {
+.whoWeAre {
   position: relative;
   padding: 100px 0px;
   // background-color: #fff;
 
-  .container {
+  .grid-who {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
+    grid-auto-flow: dense;
+    margin-bottom: 80px;
     gap: 0px 32px;
 
+
+    &:last-child{
+       margin-bottom: 0px;
+    }
+
     .left {
-      .left-top {
+      grid-row: span 2;
+
+      .left-wrapper {
+        img {
+          // height: 400px;
+          max-width: 90%;
+        }
+      }
+    }
+
+    .right {
+      .right-top {
         h4 {
           font-size: 30px;
           line-height: 35px;
@@ -18,6 +36,7 @@
         p {
           padding: 20px 0px;
           line-height: 26px;
+          text-align: justify;
         }
         .check-container {
           .check-completed {
@@ -28,26 +47,6 @@
         }
       }
 
-      // hr {
-      //   color: #f4f4f4e7 !important;
-      //   height: 0.1px;
-      //   margin: 40px 0px;
-      // }
-
-      .left-bottom {
-        border-top: 2px solid var(--gray-bg);
-        margin-top: 20px;
-        padding-top: 20px;
-
-        h4 {
-          font-size: 25px;
-          line-height: 30px;
-          font-weight: 700;
-        }
-      }
-    }
-
-    .right {
       .built-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -105,6 +104,26 @@
             margin-top: 20px;
             line-height: 26px;
           }
+        }
+      }
+    }
+  }
+
+  .grid-who.reverse {
+    grid-template-columns: repeat(2, 2fr);
+    grid-auto-flow: dense;
+
+    // &:first-child {
+    //   grid-column: 2;
+    // }
+
+    .left {
+      grid-column: 2;
+
+      .left-wrapper {
+        img {
+          // height: 400px;
+          max-width: 90%;
         }
       }
     }

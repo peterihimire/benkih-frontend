@@ -1,11 +1,12 @@
-.buildingModern {
+.contactUs {
   position: relative;
   padding: 100px 0px;
   // background-color: #fff;
 
   .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    // grid-template-columns: repeat(2, 1fr);
+       grid-template-columns: 2fr 4fr;
     gap: 0px 32px;
 
     .left {

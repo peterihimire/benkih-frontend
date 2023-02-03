@@ -442,6 +442,10 @@ body.light-mode {
               font-size: 14px;
               color: var(--black);
               font-family: Poppins-Medium, sans-serif;
+
+              &:hover {
+                color: #004ef0;
+              }
             }
 
             i {

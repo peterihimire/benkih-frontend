@@ -68,7 +68,7 @@ const WhyChoose = () => {
             lose.
           </p>
         </div>
-        <Swiper
+        {/* <Swiper
           spaceBetween={30}
           slidesPerView={3}
           pagination={pagination}
@@ -95,7 +95,7 @@ const WhyChoose = () => {
             );
           })}
         </Swiper>
-        <div className={`custom-pag`}></div>
+        <div className={`custom-pag`}></div> */}
       </div>
     </section>
   );

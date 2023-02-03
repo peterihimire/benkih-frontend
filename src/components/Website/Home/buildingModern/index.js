@@ -1,5 +1,15 @@
 import React from "react";
 import { Check, CheckBox } from "@mui/icons-material";
+import {
+  HomeOutlined,
+  HomeTwoTone,
+  LoadingOutlined,
+  SettingFilled,
+  SmileOutlined,
+  SyncOutlined,
+  CheckSquareTwoTone,
+  CheckOutlined,
+} from "@ant-design/icons";
 import "./styles.scss";
 
 const BuildingModern = () => {
@@ -39,6 +49,24 @@ const BuildingModern = () => {
                   </span>
                   Answered one fat indulged margaret sir shutters together
                 </li>
+                <li className="check-completed">
+                  <span>
+                    <Check style={{ color: "#2568ef" }} />
+                  </span>
+                  Answered one fat indulged margaret sir shutters together
+                </li>
+                <li className="check-completed">
+                  <span>
+                    <Check style={{ color: "#2568ef" }} />
+                  </span>
+                  Answered one fat indulged margaret sir shutters together
+                </li>
+                <li className="check-completed">
+                  <span>
+                    <Check style={{ color: "#2568ef" }} />
+                  </span>
+                  Answered one fat indulged margaret sir shutters together
+                </li>
               </ul>
             </div>
 
@@ -53,7 +81,10 @@ const BuildingModern = () => {
           <div className={`right`}>
             <div className={`built-grid`}>
               <div className={`grid-item1`}>
-                <CheckBox />
+                <CheckSquareTwoTone
+                  twoToneColor="#2568ef"
+                  style={{ fontSize: "100px", strokeWidth: "5" }}
+                />
                 <h5>Ticket Manager</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little
@@ -61,7 +92,10 @@ const BuildingModern = () => {
                 </p>
               </div>
               <div className={`grid-item2`}>
-                <CheckBox />
+                <CheckSquareTwoTone
+                  twoToneColor="#2568ef"
+                  style={{ fontSize: "100px", strokeWidth: "5" }}
+                />
                 <h5>Live Messaging</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little
@@ -69,7 +103,10 @@ const BuildingModern = () => {
                 </p>
               </div>
               <div className={`grid-item3`}>
-                <CheckBox />
+                <CheckSquareTwoTone
+                  twoToneColor="#2568ef"
+                  style={{ fontSize: "100px", strokeWidth: "5" }}
+                />
                 <h5>Email Workflow</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little
@@ -77,7 +114,10 @@ const BuildingModern = () => {
                 </p>
               </div>
               <div className={`grid-item4`}>
-                <CheckBox />
+                <CheckSquareTwoTone
+                  twoToneColor="#2568ef"
+                  style={{ fontSize: "100px", strokeWidth: "5" }}
+                />
                 <h5>File Upload</h5>
                 <p>
                   Downs those still witty an balls so chief so. Moment an little

@@ -2,7 +2,7 @@ import React from "react";
 import HomeHero from "./hero";
 // import OneWallet from "./ourFeature";
 import WhyChoose from "./whyChoose";
-import BuildingModern from "./buildingModern";
+import OurProcess from "./ourProcess";
 // import Testimonial from "./testimonials";
 import { Helmet } from "react-helmet";
 
@@ -14,7 +14,7 @@ const ProcessPage = () => {
       </Helmet>
 
       <HomeHero />
-      <BuildingModern />
+      <OurProcess />
       <WhyChoose />
       {/* <OneWallet />
       <Testimonial /> */}

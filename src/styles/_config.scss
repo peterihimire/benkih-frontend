@@ -18,6 +18,21 @@
   src: url("../assets/fonts/poppins/Poppins-Bold.ttf");
 }
 
+@font-face {
+  font-family: Poppins-Light;
+  src: url("../assets/fonts/poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../assets/fonts/lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url("../assets/fonts/lato/Lato-Light.ttf");
+}
+
 *,
 ::before,
 ::after {
@@ -29,7 +44,7 @@
 html {
   -webkit-text-size-adjust: var(--full);
   scroll-behavior: smooth;
-  font-family: Poppins-Regular, sans-serif;
+  font-family: Lato-Regular, sans-serif;
 }
 
 body {
@@ -332,24 +347,45 @@ select {
   }
 }
 
-.textarea-wrapper {
-  width: 100%;
-  position: relative;
-  // height: 56px;
+body.dark-mode {
+  .textarea-wrapper {
+    width: 100%;
+    position: relative;
+    // height: 56px;
 
-  .input-icon {
-    position: absolute;
-    left: 16px;
-    top: 10%;
-  }
+    .input-icon {
+      position: absolute;
+      left: 16px;
+      top: 10%;
+    }
 
-  textarea {
-    padding: 12px 38px 12px 48px !important;
-    resize: none;
-    height: 150px !important;
+    textarea {
+      padding: 12px 38px 12px 48px !important;
+      resize: none;
+      height: 150px !important;
+    }
   }
 }
 
+body.light-mode {
+  .textarea-wrapper {
+    width: 100%;
+    position: relative;
+    // height: 56px;
+
+    .input-icon {
+      position: absolute;
+      left: 16px;
+      top: 10%;
+    }
+
+    textarea {
+      padding: 12px 38px 12px 48px !important;
+      resize: none;
+      height: 150px !important;
+    }
+  }
+}
 .checkbox-wrapper {
   margin-bottom: 0px;
   display: flex;

@@ -1,12 +1,12 @@
-.buildingModern {
+.ourProcess {
   position: relative;
   padding: 100px 0px;
   // background-color: #fff;
 
   .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0px 32px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px 32px;
 
     .left {
       .left-top {
@@ -76,6 +76,12 @@
           p {
             margin-top: 20px;
             line-height: 26px;
+          }
+
+          .icon-thin {
+            stroke-width: 2px;
+            stroke: rgb(228, 31, 31);
+            color: rgb(37, 11, 156);
           }
         }
         .grid-item3 {

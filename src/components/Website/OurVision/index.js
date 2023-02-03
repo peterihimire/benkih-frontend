@@ -14,8 +14,8 @@ const VisionPage = () => {
       </Helmet>
 
       <HomeHero />
-      <BuildingModern />
       <WhyChoose />
+      <BuildingModern />
       {/* <OneWallet />
       <Testimonial /> */}
     </div>

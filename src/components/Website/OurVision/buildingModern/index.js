@@ -4,7 +4,7 @@ import "./styles.scss";
 
 const BuildingModern = () => {
   return (
-    <section className={`buildingModern`}>
+    <section className={`buildModern`}>
       <div className="wrapper">
         <div className={`container`}>
           <div className={`left`}>

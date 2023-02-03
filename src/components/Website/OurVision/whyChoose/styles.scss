@@ -1,5 +1,5 @@
 body.dark-mode {
-  .whyChoose {
+  .why {
     position: relative;
     padding: 100px 0px;
     // background-color: #fff;
@@ -81,9 +81,9 @@ body.dark-mode {
 }
 
 body.light-mode {
-  .whyChoose {
+  .why {
     position: relative;
-    background-color: var(--gray-bg);
+    // background-color: var(--gray-bg);
     padding: 100px 0px;
 
     .choose-head {

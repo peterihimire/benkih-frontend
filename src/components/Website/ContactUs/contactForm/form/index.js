@@ -268,7 +268,7 @@ const Form = () => {
           {error && <p className={`errorStyle`}>*{error}</p>}
           <div className={`submitBtn`}>
             <button
-              className="btn-primary btn-block"
+              className="btn-primary btn-large"
               type="submit"
               disabled={logging}
               onClick={(e) => {

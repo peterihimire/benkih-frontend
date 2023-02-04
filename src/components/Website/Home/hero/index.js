@@ -21,8 +21,8 @@ const Hero = () => {
               favourable.
             </p>
 
-            <div className={`subscribe`}>
-              <button className="btn-primary btn-block">Get Started</button>
+            <div className={`get-started`}>
+              <button className="btn-primary  btn-large">Get Started</button>
             </div>
           </div>
           <div className={`rightt indicator`}>

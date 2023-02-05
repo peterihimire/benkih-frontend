@@ -1,10 +1,11 @@
 body.dark-mode {
-  .hero {
+  .hero-header {
     width: 100%;
     padding: 50px 0 50px 0;
     position: relative;
-    background: url(../../../../assets//images/css-bg.png);
-    background-color: var(--bg-dark);
+    background: url(../../../../assets/images/css-bg.png);
+    // background-color: rgba(199, 18, 18, 0.693);
+    background-color: #0000008e;
 
     @keyframes bounce {
       0% {
@@ -168,11 +169,11 @@ body.dark-mode {
 }
 
 body.light-mode {
-  .hero {
+  .hero-header {
     width: 100%;
     padding: 50px 0 50px 0;
     position: relative;
-    background: url(../../../../assets//images/css-bg.png);
+    background: url(../../../../assets/images/css-bg.png);
     background-color: var(--gray-bg);
 
     @keyframes bounce {

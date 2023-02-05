@@ -60,10 +60,18 @@ body.dark-mode {
         > a {
           width: 102px;
           // color: themed("logo");
-          color: var(--dark);
+          // color: var(--dark);
+          // font-weight: bolder;
+          // font-size: 25px;
+
+          background: linear-gradient(to right, #7b33c8, #2568ef);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
           font-weight: bolder;
           font-size: 25px;
-           font-weight: 300;
+          font-weight: 300;
+          // text-transform: uppercase;
+          //  font-weight: 300;
 
           span {
             font-size: 25px !important;
@@ -147,11 +155,14 @@ body.light-mode {
         }
         > a {
           width: 102px;
-          // color: themed("logo");
-          color: var(--main-color);
+          background: linear-gradient(to right, #7b33c8, #2568ef);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
           font-weight: bolder;
           font-size: 25px;
-           font-weight: 300;
+          font-weight: 300;
+          // text-transform: uppercase;
+          font-weight: 300;
 
           span {
             font-size: 25px !important;

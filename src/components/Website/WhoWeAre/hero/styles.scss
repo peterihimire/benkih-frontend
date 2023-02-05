@@ -1,10 +1,10 @@
 body.dark-mode {
-  .ourhero {
+  .hero-who {
     width: 100%;
     padding: 0px 0 50px 0;
     position: relative;
-    background: url(../../../../assets//images/css-bg.png);
-    background-color: var(--bg-dark);
+    background: url(../../../../assets/images/css-bg.png);
+    background-color: var(--dark-bg);
 
     @keyframes bounce {
       0% {
@@ -182,7 +182,7 @@ body.dark-mode {
 }
 
 body.light-mode {
-  .ourhero {
+  .hero-who {
     width: 100%;
     padding: 0px 0 50px 0;
     position: relative;

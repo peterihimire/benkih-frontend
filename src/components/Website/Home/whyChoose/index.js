@@ -77,10 +77,10 @@ const WhyChoose = () => {
           autoHeight={true}
           // centeredSlides={false}
           speed={3000}
-          // autoplay={{
-          //   delay: 1000,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 1000,
+            disableOnInteraction: false,
+          }}
         >
           {features.map((feature, index) => {
             return (

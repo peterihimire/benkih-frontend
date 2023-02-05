@@ -210,7 +210,7 @@ button {
 }
 
 .btn-large {
-  width: 300px;
+  width: 250px;
   height: 60px;
   max-width: 100%;
   display: flex;
@@ -699,6 +699,27 @@ input[type="radio"] {
 
 // swiper
 
+.swiper-button-next,
+.swiper-button-prev {
+  z-index: 300 !important;
+  opacity: 0.9;
+  visibility: visible;
+
+  &.swiper-button-disabled {
+    pointer-events: all !important;
+    cursor: not-allowed !important;
+    visibility: hidden;
+  }
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 140px !important;
+    left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 140px !important;
+    right: auto;
+}
 // .custom-pag1 {
 //   display: flex;
 //   align-items: center;

@@ -9,7 +9,6 @@ import Input from "../footerInput";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
-
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 // import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";

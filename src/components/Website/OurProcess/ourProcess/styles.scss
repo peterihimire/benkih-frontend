@@ -8,6 +8,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 32px 32px;
 
+    .process-icon {
+      font-size: 60px;
+      color: var(--main-color);
+    }
+
     .left {
       .left-top {
         h4 {

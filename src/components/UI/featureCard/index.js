@@ -27,7 +27,7 @@ const FeatureCard = ({ id, image, title, content, icon }) => {
       <p>{content}</p>
       <div className={`button-div`}>
         <button onClick={() => console.log("Hello")} className={`read-more`}>
-          VIEW DETAILS
+          VIEW DETAIL
         </button>
       </div>
     </div>

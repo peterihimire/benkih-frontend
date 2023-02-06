@@ -3,6 +3,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay } from "swiper";
 import { CheckBox } from "@mui/icons-material";
 import FeatureCard from "../../../ui/featureCard";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
+import { faBolt } from "@fortawesome/free-solid-svg-icons";
+import { faLock } from "@fortawesome/free-solid-svg-icons";
+import { faFingerprint } from "@fortawesome/free-solid-svg-icons";
+import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
+// import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 import "./styles.scss";
 
 SwiperCore.use([Pagination]);
@@ -24,35 +32,35 @@ const WhyChoose = () => {
       title: "App Integration",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faHeadphones} className={`feature-icon`} />,
     },
     {
       id: "02",
       title: "Color Schemes",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faBolt} className={`feature-icon`} />,
     },
     {
       id: "03",
       title: "High Resolution",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faFingerprint} className={`feature-icon`} />,
     },
     {
       id: "04",
       title: "Drag and Drop",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faLock} className={`feature-icon`} />,
     },
     {
       id: "05",
       title: "Mobile Responsive",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faMicrochip} className={`feature-icon`} />,
     },
   ];
 
@@ -60,7 +68,8 @@ const WhyChoose = () => {
     <section className={`whyChoose`}>
       <div className="wrapper">
         <div className={`choose-head`}>
-          <h3>Our Features</h3>
+          <h6>Enjoy best in class features</h6>
+          <h3>Our Best Features</h3>
           <p>
             Learning day desirous informed expenses material returned six the.
             She enabled invited exposed him another. Reasonably conviction
@@ -77,10 +86,10 @@ const WhyChoose = () => {
           autoHeight={true}
           // centeredSlides={false}
           speed={3000}
-          autoplay={{
-            delay: 1000,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 1000,
+          //   disableOnInteraction: false,
+          // }}
         >
           {features.map((feature, index) => {
             return (

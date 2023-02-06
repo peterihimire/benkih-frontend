@@ -1,6 +1,6 @@
 .reviews {
   width: var(--full);
-  padding: 140px 16px;
+  padding: 100px 16px;
 
   .wrapper {
     width: 65%;
@@ -10,15 +10,29 @@
       width: 90%;
     }
 
-    > h3 {
+    // > h6 {
+    //   color: var(--main-color);
+    //   text-align: center;
+    //   font-size: 15px;
+    //   font-family: Poppins-Medium;
+    // }
+
+    > h6 {
       color: var(--main-color);
-      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 20px;
       font-size: 15px;
-      font-family: Poppins-Medium;
+      text-align: center;
+    }
+    > h4 {
+      font-size: 30px;
+      line-height: 35px;
+      font-weight: 700;
+      text-align: center;
     }
 
     .reviewsCarousel {
-      margin-top: 88px;
+      margin-top: 40px;
 
       .reviewContent {
         display: flex;

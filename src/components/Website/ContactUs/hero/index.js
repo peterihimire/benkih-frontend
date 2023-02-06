@@ -1,5 +1,7 @@
 import React, { useCallback } from "react";
 import heroImg from "../../../../assets/images/dev-guy-team-ladies.png";
+import { KeyboardArrowRight } from "@mui/icons-material";
+
 import { Link } from "react-router-dom";
 
 import "./styles.scss";
@@ -17,7 +19,7 @@ const Hero = () => {
             <span>
               <Link to="/">Home</Link>
             </span>
-            <div>&gt; Contact Us</div>
+            <KeyboardArrowRight className="keyarrowright" /> Contact Us
           </div>
         </div>
       </div>

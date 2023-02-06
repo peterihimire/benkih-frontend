@@ -1,9 +1,15 @@
 body.dark-mode {
-  .feature-card {
+  .process-card {
     background-color: var(--black);
     box-shadow: 0px 15px 26px rgba(1, 73, 159, 0.05);
     border-radius: 2px;
     padding: 30px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid var(--main-color);
     // position: relative;
 
     .num-icon {
@@ -56,17 +62,21 @@ body.dark-mode {
 }
 
 body.light-mode {
-  .feature-card {
+  .process-card {
     background-color: var(--white);
-    box-shadow: 0px 15px 26px rgba(1, 73, 159, 0.05);
+    // box-shadow: 0px 15px 26px rgba(1, 73, 159, 0.05);
+    box-shadow: 0 0 10px #cccccc;
     border-radius: 2px;
     padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid var(--main-color);
     // position: relative;
 
-    .num-icon {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .process-icon {
       margin-bottom: 20px;
 
       h3 {

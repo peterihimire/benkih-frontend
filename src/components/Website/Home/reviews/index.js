@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Autoplay } from "swiper";
+import testimonialPix from "../../../../assets/images/reveiw-woman.png";
 
 SwiperCore.use([Navigation, Autoplay]);
 
@@ -9,8 +10,8 @@ const reviews = () => {
   return (
     <section className={styles.reviews}>
       <div className={styles.wrapper}>
-        <h3>WHY PEOPLE LOVE US</h3>
-
+        <h6>WHY PEOPLE LOVE US</h6>
+        <h4>Testimonials from real clients</h4>
         <div className={styles.reviewsCarousel}>
           <Swiper
             spaceBetween={20}
@@ -36,7 +37,7 @@ const reviews = () => {
 
                 <div className={styles.reviewPerson}>
                   <div className={styles.left}>
-                    <img alt="" src="/images/reveiw-woman.png" />
+                    <img alt="" src={testimonialPix} />
                   </div>
 
                   <div className={styles.right}>
@@ -58,7 +59,7 @@ const reviews = () => {
 
                 <div className={styles.reviewPerson}>
                   <div className={styles.left}>
-                    <img alt="" src="/images/reveiw-woman.png" />
+                    <img alt="" src={testimonialPix} />
                   </div>
 
                   <div className={styles.right}>
@@ -80,7 +81,7 @@ const reviews = () => {
 
                 <div className={styles.reviewPerson}>
                   <div className={styles.left}>
-                    <img alt="" src="/images/reveiw-woman.png" />
+                    <img alt="" src={testimonialPix} />
                   </div>
 
                   <div className={styles.right}>

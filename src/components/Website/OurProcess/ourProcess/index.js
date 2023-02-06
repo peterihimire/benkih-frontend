@@ -1,16 +1,14 @@
 import React from "react";
 import { Check, CheckBox, CheckBoxSharp } from "@mui/icons-material";
-import FeatureCard from "../../../ui/featureCard";
-import {
-  HomeOutlined,
-  HomeTwoTone,
-  LoadingOutlined,
-  SettingFilled,
-  SmileOutlined,
-  SyncOutlined,
-  CheckSquareTwoTone,
-  CheckOutlined,
-} from "@ant-design/icons";
+import ProcessCard from "../../../ui/processCard";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
+import { faBolt } from "@fortawesome/free-solid-svg-icons";
+import { faLock } from "@fortawesome/free-solid-svg-icons";
+import { faFingerprint } from "@fortawesome/free-solid-svg-icons";
+import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
+import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 
 import "./styles.scss";
 
@@ -21,42 +19,42 @@ const OurProcess = () => {
       title: "App Integration",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faHeadphones} className={`feature-icon`} />,
     },
     {
       id: "02",
       title: "Color Schemes",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faBolt} className={`process-icon`} />,
     },
     {
       id: "03",
       title: "High Resolution",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faFingerprint} className={`process-icon`} />,
     },
     {
       id: "04",
       title: "Drag and Drop",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faLock} className={`process-icon`} />,
     },
     {
       id: "05",
       title: "Mobile Responsive",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faMicrochip} className={`process-icon`} />,
     },
     {
       id: "06",
-      title: "Scalable Architecture",
+      title: "Mobile Responsive",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: <CheckBox />,
+      icon: <FontAwesomeIcon icon={faAddressBook} className={`process-icon`} />,
     },
   ];
   return (
@@ -65,7 +63,7 @@ const OurProcess = () => {
         <div className={`container`}>
           {features.map((feature, index) => {
             return (
-              <FeatureCard
+              <ProcessCard
                 title={feature.title}
                 content={feature.exerpt}
                 id={feature.id}

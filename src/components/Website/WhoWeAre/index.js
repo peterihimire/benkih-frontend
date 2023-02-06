@@ -14,8 +14,9 @@ const WhoPage = () => {
       </Helmet>
 
       <HomeHero />
-      <WeAre />
+
       <WhyChoose />
+      <WeAre />
       {/* <OneWallet />
       <Testimonial /> */}
     </div>

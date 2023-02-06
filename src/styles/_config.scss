@@ -157,8 +157,9 @@ button {
   border-radius: 4px;
   color: var(--white);
   font-family: Poppins-Regular, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
+
   transition: background 0.6s ease-in-out;
 
   &:hover {
@@ -210,13 +211,14 @@ button {
 }
 
 .btn-large {
-  width: 250px;
+  width: 220px;
   height: 60px;
   max-width: 100%;
   display: flex;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  text-transform: uppercase;
 
   @media screen and (max-width: 600px) {
     width: 290px;
@@ -273,7 +275,7 @@ body.dark-mode {
     font-family: inherit;
     border: 1px solid #dadada;
     background: var(--black);
-    border-radius: 5px !important;
+    border-radius: 4px !important;
     height: 50px !important;
     transition: all 0.3s ease-in-out;
     padding: 10px;
@@ -300,7 +302,7 @@ body.light-mode {
     font-family: inherit;
     border: 1px solid #dadada;
     background: var(--white);
-    border-radius: 5px !important;
+    border-radius: 4px !important;
     height: 50px !important;
     transition: all 0.3s ease-in-out;
     padding: 10px;
@@ -699,6 +701,29 @@ input[type="radio"] {
 
 // swiper
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.2rem !important;
+  position: relative;
+  font-weight: 900 !important;
+  color: var(--main-bg) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--text-primary);
+  border: 1.75px solid var(--text-primary);
+  min-height: 56px;
+  min-width: 56px;
+  border-radius: 7px;
+  box-shadow: 0px -14px 28px rgba(255, 255, 255, 0.1);
+
+  @media (max-width: 903px) {
+    min-height: 40px;
+    min-width: 40px;
+  }
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   z-index: 300 !important;
@@ -711,15 +736,30 @@ input[type="radio"] {
     visibility: hidden;
   }
 }
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: 140px !important;
-    left: auto;
+
+.swiper-button-prev {
+  @media (min-width: 904px) {
+    left: 80px !important;
+  }
 }
 
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: 140px !important;
-    right: auto;
+.swiper-button-next {
+  @media (min-width: 904px) {
+    right: 80px !important;
+  }
 }
+// .swiper-button-next,
+// .swiper-rtl .swiper-button-prev {
+//   right: 140px !important;
+//   left: auto;
+
+// }
+
+// .swiper-button-prev,
+// .swiper-rtl .swiper-button-next {
+//   left: 140px !important;
+//   right: auto;
+// }
 // .custom-pag1 {
 //   display: flex;
 //   align-items: center;

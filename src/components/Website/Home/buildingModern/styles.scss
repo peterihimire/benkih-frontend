@@ -1,4 +1,4 @@
-.buildingModern {
+.building-modern {
   position: relative;
   padding: 100px 0px;
   // background-color: #fff;
@@ -10,6 +10,12 @@
 
     .left {
       .left-top {
+        h6 {
+          color: var(--main-color);
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          font-size: 15px;
+        }
         h4 {
           font-size: 30px;
           line-height: 35px;
@@ -23,7 +29,11 @@
           .check-completed {
             display: flex;
             align-items: center;
-            margin-bottom: 8px;
+            margin-bottom: 18px;
+
+            span {
+              margin-right: 10px;
+            }
           }
         }
       }
@@ -57,6 +67,17 @@
           border-right: solid 1px var(--gray-color);
           padding: 0px 20px 30px 10px;
 
+          .icon-container {
+            padding: 10px;
+            background-color: #25efef13;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+          }
+
           h5 {
             font-size: 20px;
             margin-top: 20px;
@@ -68,6 +89,17 @@
         }
         .grid-item2 {
           padding: 0px 10px 30px 30px;
+
+          .icon-container {
+            padding: 10px;
+            background-color: #25efef13;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+          }
 
           h5 {
             font-size: 20px;
@@ -83,6 +115,17 @@
           border-top: solid 1px var(--gray-color);
           padding: 30px 20px 10px 10px;
 
+          .icon-container {
+            padding: 10px;
+            background-color: #25efef13;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+          }
+
           h5 {
             font-size: 20px;
             margin-top: 20px;
@@ -94,8 +137,18 @@
         }
         .grid-item4 {
           padding: 30px 10px 10px 30px;
-
           border-top: solid 1px var(--gray-color);
+
+          .icon-container {
+            padding: 10px;
+            background-color: #25efef13;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+          }
 
           h5 {
             font-size: 20px;

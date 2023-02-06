@@ -145,7 +145,15 @@ body.dark-mode {
         height: 100%;
         padding-top: 150px;
         display: flex;
-        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        text-transform: uppercase;
+
+        .keyarrowright {
+          font-size: 14px;
+          color: #fff;
+        }
 
         span {
           margin-right: 5px;
@@ -328,7 +336,15 @@ body.light-mode {
         height: 100%;
         padding-top: 150px;
         display: flex;
-        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        text-transform: uppercase;
+
+        .keyarrowright {
+          font-size: 14px;
+          color: #232323;
+        }
 
         span {
           margin-right: 5px;

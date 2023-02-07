@@ -1,5 +1,5 @@
 body.dark-mode {
-  .whyChoose {
+  .why-chose {
     position: relative;
     padding: 100px 0px;
     background-color: #0000008e;
@@ -18,7 +18,6 @@ body.dark-mode {
       }
 
       h3 {
-        text-transform: uppercase;
         font-size: 30px;
         font-weight: 950;
       }
@@ -89,7 +88,7 @@ body.dark-mode {
 }
 
 body.light-mode {
-  .whyChoose {
+  .why-chose {
     position: relative;
     background-color: var(--gray-bg);
     padding: 100px 0px;
@@ -107,7 +106,6 @@ body.light-mode {
       }
 
       h3 {
-        text-transform: uppercase;
         font-size: 30px;
         font-weight: 950;
       }

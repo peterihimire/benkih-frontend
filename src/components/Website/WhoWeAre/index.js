@@ -1,8 +1,10 @@
 import React from "react";
-import HomeHero from "./hero";
+// import HomeHero from "./hero";
 // import OneWallet from "./ourFeature";
+import SmallHero from "../../ui/smallHero";
 import WhyChoose from "./whyChoose";
 import WeAre from "./weAre";
+import GrowFast from "./growFast";
 // import Testimonial from "./testimonials";
 import { Helmet } from "react-helmet";
 
@@ -13,10 +15,11 @@ const WhoPage = () => {
         <title>About Us - Who We Are | Benkih</title>
       </Helmet>
 
-      <HomeHero />
-
+      {/* <HomeHero /> */}
+      <SmallHero title={`Who We Are`} />
       <WhyChoose />
       <WeAre />
+      <GrowFast />
       {/* <OneWallet />
       <Testimonial /> */}
     </div>

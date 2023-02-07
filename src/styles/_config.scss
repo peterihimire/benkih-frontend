@@ -678,49 +678,57 @@ input[type="radio"] {
   }
 }
 
-// .wrapper {
-//   width: 85%;
-//   margin: 0 auto;
-//   display: flex;
-//   align-items: center;
-//   height: 100%;
-//   max-width: var(--wrapper-max-width);
 
-//   @media (max-width: 1387px) {
-//     width: 90%;
-//   }
-
-//   @media (max-width: 1315px) {
-//     width: 95%;
-//   }
-
-//   @media (max-width: 1264px) {
-//     justify-content: space-between;
-//   }
-// }
 
 // swiper
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 1.2rem !important;
-  position: relative;
-  font-weight: 900 !important;
-  color: var(--main-bg) !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: var(--text-primary);
-  border: 1.75px solid var(--text-primary);
-  min-height: 56px;
-  min-width: 56px;
-  border-radius: 7px;
-  box-shadow: 0px -14px 28px rgba(255, 255, 255, 0.1);
+body.light-mode {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 1.2rem !important;
+    position: relative;
+    font-weight: 900 !important;
+    color: var(--main-bg) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--text-primary);
+    border: 1.75px solid var(--text-primary);
+    min-height: 56px;
+    min-width: 56px;
+    border-radius: 7px;
+    box-shadow: 0px -14px 28px rgba(4, 28, 209, 0.1);
 
-  @media (max-width: 903px) {
-    min-height: 40px;
-    min-width: 40px;
+    @media (max-width: 903px) {
+      min-height: 40px;
+      min-width: 40px;
+    }
+  }
+}
+
+body.dark-mode {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 1.2rem !important;
+    position: relative;
+    font-weight: 900 !important;
+    color: var(--main-bg) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--text-primary);
+    border: 1.75px solid var(--text-primary);
+    min-height: 56px;
+    min-width: 56px;
+    border-radius: 7px;
+    box-shadow: 0px -14px 28px rgba(179, 179, 180, 0.1);
+
+    @media (max-width: 903px) {
+      min-height: 40px;
+      min-width: 40px;
+    }
   }
 }
 

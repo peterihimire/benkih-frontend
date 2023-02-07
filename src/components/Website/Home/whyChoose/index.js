@@ -65,7 +65,7 @@ const WhyChoose = () => {
   ];
 
   return (
-    <section className={`whyChoose`}>
+    <section className={`why-chose`}>
       <div className="wrapper">
         <div className={`choose-head`}>
           <h6>Enjoy best in class features</h6>

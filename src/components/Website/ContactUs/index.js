@@ -1,6 +1,6 @@
 import React from "react";
-import HomeHero from "./hero";
-
+// import HomeHero from "./hero";
+import SmallHero from "../../ui/smallHero";
 import ContactForm from "./contactForm";
 import { Helmet } from "react-helmet";
 
@@ -10,8 +10,8 @@ const ContactPage = () => {
       <Helmet>
         <title>Contact Us | Benkih</title>
       </Helmet>
-
-      <HomeHero />
+      <SmallHero title={`Contact Us`} />
+      {/* <HomeHero /> */}
       <ContactForm />
     </div>
   );

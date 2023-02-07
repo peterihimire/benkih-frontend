@@ -5,8 +5,12 @@ import FeatureCard from "../../../ui/featureCard";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlaneDeparture } from "@fortawesome/free-solid-svg-icons";
-import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
-import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
+import { faHeadphonesSimple } from "@fortawesome/free-solid-svg-icons";
+import { faHeartPulse } from "@fortawesome/free-solid-svg-icons";
+import { faCloudBolt } from "@fortawesome/free-solid-svg-icons";
+
+import { faHourglass } from "@fortawesome/free-regular-svg-icons";
+import { faRecycle } from "@fortawesome/free-solid-svg-icons";
 import "./styles.scss";
 
 const WhyChoose = () => {
@@ -16,9 +20,7 @@ const WhyChoose = () => {
       title: "App Integration",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: (
-        <FontAwesomeIcon icon={faPlaneDeparture} className={`mapped-icon`} />
-      ),
+      icon: <FontAwesomeIcon icon={faCloudBolt} className={`mapped-icon`} />,
     },
     {
       id: "02",
@@ -26,7 +28,7 @@ const WhyChoose = () => {
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
       icon: (
-        <FontAwesomeIcon icon={faPlaneDeparture} className={`mapped-icon`} />
+        <FontAwesomeIcon icon={faHeadphonesSimple} className={`mapped-icon`} />
       ),
     },
     {
@@ -34,9 +36,14 @@ const WhyChoose = () => {
       title: "High Resolution",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",
-      icon: (
-        <FontAwesomeIcon icon={faPlaneDeparture} className={`mapped-icon`} />
-      ),
+      icon: <FontAwesomeIcon icon={faHeartPulse} className={`mapped-icon`} />,
+    },
+    {
+      id: "03",
+      title: "Fast Content Delivery",
+      exerpt:
+        "Learning day desirous informed expenses material returned six the.",
+      icon: <FontAwesomeIcon icon={faRecycle} className={`mapped-icon`} />,
     },
   ];
 
@@ -45,9 +52,7 @@ const WhyChoose = () => {
       <div className="wrapper">
         <div className={`choose-head`}>
           <h6>Fast business growth</h6>
-          <h3>
-            Qualified development team specailize for business growth
-          </h3>
+          <h3>Qualified development team specailize for business growth</h3>
           <p>
             Learning day desirous informed expenses material returned six the.
             She enabled invited exposed him another. Reasonably conviction

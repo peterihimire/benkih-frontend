@@ -2,8 +2,7 @@ body.dark-mode {
   .whoWeAre {
     position: relative;
     padding: 100px 0px;
-    // background-color: var(--gray-bg);
-    // background-color: #fff;
+    background-color: var(--dark-bg);
 
     .grid-who {
       display: grid;
@@ -22,7 +21,7 @@ body.dark-mode {
         .left-wrapper {
           img {
             // height: 400px;
-            max-width: 90%;
+            max-width: 85%;
           }
         }
       }
@@ -163,7 +162,7 @@ body.light-mode {
         .left-wrapper {
           img {
             // height: 400px;
-            max-width: 90%;
+            max-width: 85%;
           }
         }
       }

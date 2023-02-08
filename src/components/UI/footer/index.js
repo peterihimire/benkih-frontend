@@ -109,19 +109,13 @@ const Footer = () => {
           </div>
 
           <div className={`location-wrapper`}>
-            <h3>Resources</h3>
+            <h3>Legal</h3>
             <ul className={`quick-links`}>
               <li>
-                <Link to="/">Contact Us</Link>
+                <Link to="/">Privacy Policy</Link>
               </li>
               <li>
-                <Link to="/products-services">Help Center</Link>
-              </li>
-              <li>
-                <Link to="/our-process">Site Map</Link>
-              </li>
-              <li>
-                <Link to="/contact-us">IP Whitelist</Link>
+                <Link to="/products-services">Terms of Use</Link>
               </li>
             </ul>
           </div>
@@ -205,10 +199,10 @@ const Footer = () => {
         </div>
         <div className={`policy-terms`}>
           <div className="policy">
-            <Link to="/privacy-policy">- Privacy Policy</Link>
+            <Link to="/privacy-policy">— Privacy Policy</Link>
           </div>
           <div className="terms">
-            <Link to="/terms-and-conditions">- Terms of Use</Link>
+            <Link to="/terms-and-conditions">— Terms of Use</Link>
           </div>
         </div>
       </div>

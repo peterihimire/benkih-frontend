@@ -10,6 +10,8 @@ import * as Yup from "yup";
 // import { login } from "../../../../redux/actions/userAction";
 import { useSelector, useDispatch } from "react-redux";
 import { CircularProgress } from "@mui/material";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 import { Visibility } from "@mui/icons-material";
 import { VisibilityOff } from "@mui/icons-material";
 
@@ -147,7 +149,7 @@ const Form = () => {
         <div className={`formGrid`}>
           <div className={`formGroup`}>
             <Input
-              // labelText="What’s your Email?"
+              labelText="First Name"
               type="text"
               name="firstname"
               id="firstname"
@@ -170,8 +172,8 @@ const Form = () => {
           </div>
           <div className={`formGroup`}>
             <Input
-              // labelText="Create a Password"
-              type='text'
+              labelText="Last Name"
+              type="text"
               name="lastname"
               id="lastname"
               // required
@@ -195,7 +197,7 @@ const Form = () => {
 
           <div className={`formGroup`}>
             <Input
-              // labelText="What’s your Email?"
+              labelText="Email"
               type="email"
               name="email"
               id="email"
@@ -216,7 +218,7 @@ const Form = () => {
             <p className={styles.errorStyle}>{formError.email}</p>
           )} */}
           </div>
-          <div className={`formGroup`}>
+          {/* <div className={`formGroup`}>
             <Input
               // labelText="Create a Password"
               type={visible ? "text" : "password"}
@@ -236,15 +238,35 @@ const Form = () => {
             {formik.touched.password && formik.errors.password ? (
               <p className={`errorStyle`}>{formik.errors.password}</p>
             ) : null}
-            {/* {formError.password && (
-            <p className={styles.errorStyle}>{formError.password}</p>
-          )} */}
+          </div> */}
+
+          <div className={`formGroup`}>
+            <div className={`phone-label-wrapper`}>
+              <label htmlFor="phone">
+                Phone Number<span>*</span>
+              </label>
+            </div>
+
+            <PhoneInput
+              country={"us"}
+              // value={this.state.phone}
+              // onChange={(phone) => this.setState({ phone })}
+              dropdownClass="phone-drop"
+              inputClass="phone-input"
+              buttonClass="phone-drop-btn"
+              placeholder=""
+              inputProps={{ id: "phone", name: "phone_number" }}
+              containerClass="phone-input-wrapper"
+            />
+            {formik.touched.message && formik.errors.message ? (
+              <p className="error-msg">{formik.errors.message}</p>
+            ) : null}
           </div>
         </div>
 
         <div className={`textarea`}>
           <Textarea
-            // labelText="Message or project details"
+            labelText="Inquiry"
             id="message"
             // required
             name="message"
@@ -288,8 +310,6 @@ const Form = () => {
             </button>
           </div>
         </div>
-
-      
       </form>
     </div>
   );

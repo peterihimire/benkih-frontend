@@ -27,7 +27,10 @@ const Input = ({
       {/* {labelText && <label htmlFor={id}>{labelText}</label>} */}
       {labelText && (
         <div className="label-wrapper">
-          <label htmlFor={id}>{labelText}</label>
+          <label htmlFor={id}>
+            {labelText}
+            <span>*</span>
+          </label>
           <p>{optionalText}</p>
         </div>
       )}

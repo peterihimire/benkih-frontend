@@ -1,26 +1,93 @@
-.oneWallet {
-  background-color: #dde6fa;
-  position: relative;
-  // FOR ONE WALLET PAGE
-  .custom-shape-divider-bottom-1673624946 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-  }
-
-  .custom-shape-divider-bottom-1673624946 svg {
+body.dark-mode {
+ .feature-our {
     position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 100px;
-    transform: rotateY(180deg);
-  }
+    background-color: var(--dark-bg);
+    padding: 100px 0px;
 
-  .custom-shape-divider-bottom-1673624946 .shape-fill {
-   fill: #fff;
+    .choose-head {
+      text-align: center;
+      margin: 0 auto 30px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0px 0px;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px #464646;
+
+      .contact-icon {
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: var(--main-color);
+      }
+
+      > div {
+        background-color: var(--bg-dark);
+        border-right: 1px solid #444343;
+        padding: 20px;
+
+        &:last-of-type {
+          border-right: none;
+        }
+      }
+
+      h5 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 950;
+      }
+
+      p {
+        line-height: 26px;
+        margin: 20px 0px 20px 0;
+        height: 55px;
+      }
+    }
+  }
+}
+
+body.light-mode {
+  .feature-our {
+    position: relative;
+    background-color: var(--gray-bg);
+    padding: 100px 0px;
+
+    .choose-head {
+      text-align: center;
+      margin: 0 auto 30px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0px 0px;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px #cccccc;
+
+      .contact-icon {
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: var(--main-color);
+      }
+
+      > div {
+        background-color: var(--white);
+        border-right: 1px solid #cecece;
+        padding: 20px;
+
+        &:last-of-type {
+          border-right: none;
+        }
+      }
+
+      h5 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 950;
+      }
+
+      p {
+        line-height: 26px;
+        margin: 20px 0px 20px 0;
+        height: 55px;
+      }
+    }
   }
 }

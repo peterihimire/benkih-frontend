@@ -15,14 +15,17 @@ const Textarea = ({
     <>
       {/* {labelText && <label htmlFor={id}>{labelText}</label>} */}
       {labelText && (
-        <div className='label-wrapper'>
-          <label htmlFor={id}>{labelText}</label>
+        <div className="label-wrapper">
+          <label htmlFor={id}>
+            {labelText}
+            <span>*</span>
+          </label>
           <p>{optionalText}</p>
         </div>
       )}
       <div className={`textarea-wrapper ${wrapperClass ? wrapperClass : ""}`}>
-        <div className='input-icon'>
-          <img src={iconSrc} alt='' />
+        <div className="input-icon">
+          <img src={iconSrc} alt="" />
         </div>
         <textarea {...props} id={id} required={required}></textarea>
       </div>

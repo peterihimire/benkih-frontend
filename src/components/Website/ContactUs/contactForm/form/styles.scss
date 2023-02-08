@@ -44,6 +44,31 @@
         font-style: italic;
         padding: 5px 0 0 5px;
       }
+
+      .phone-label-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        label {
+          display: block;
+          font-size: 15px;
+          margin-bottom: 12px;
+          color: var(--head-txt);
+          font-family: Poppins-Medium, sans-serif;
+
+          span {
+            color: var(--main-color);
+            margin-left: 5px;
+          }
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: #74808c;
+        }
+      }
     }
   }
 

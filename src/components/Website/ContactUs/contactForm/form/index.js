@@ -218,27 +218,6 @@ const Form = () => {
             <p className={styles.errorStyle}>{formError.email}</p>
           )} */}
           </div>
-          {/* <div className={`formGroup`}>
-            <Input
-              // labelText="Create a Password"
-              type={visible ? "text" : "password"}
-              name="password"
-              id="password"
-              // required
-              placeholder="Password"
-              // value={loginForm.password}
-              // onChange={(e) => handleFormChange(e.target)}
-              password
-              reveal={() => toggleVisibility()}
-              passIcon={!visible ? <Visibility /> : <VisibilityOff />}
-              value={formik.values.password}
-              onBlur={formik.handleBlur}
-              onChange={formik.handleChange}
-            />
-            {formik.touched.password && formik.errors.password ? (
-              <p className={`errorStyle`}>{formik.errors.password}</p>
-            ) : null}
-          </div> */}
 
           <div className={`formGroup`}>
             <div className={`phone-label-wrapper`}>

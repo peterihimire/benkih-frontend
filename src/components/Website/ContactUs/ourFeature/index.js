@@ -1,13 +1,8 @@
 import React from "react";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
-
-import { faAngry } from "@fortawesome/free-regular-svg-icons";
-import { faRing } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles.scss";
 
@@ -17,7 +12,10 @@ const OurContact = () => {
       <div className="wrapper">
         <div className={`choose-head`}>
           <div>
-            <FontAwesomeIcon icon={faMapLocationDot} className={`contact-icon`} />
+            <FontAwesomeIcon
+              icon={faMapLocationDot}
+              className={`contact-icon`}
+            />
             <h5>Location</h5>
             <p>22 Baker Street,London, United Kingdom, W1U 3BW</p>
           </div>
@@ -27,7 +25,10 @@ const OurContact = () => {
             <p>08060958134</p>
           </div>
           <div>
-            <FontAwesomeIcon icon={faEnvelopeOpenText} className={`contact-icon`} />
+            <FontAwesomeIcon
+              icon={faEnvelopeOpenText}
+              className={`contact-icon`}
+            />
             <h5>Email</h5>
             <p>support@benkih.com</p>
             {/* <p>admin@benkih.com</p> */}

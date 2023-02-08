@@ -1,5 +1,6 @@
 import React from "react";
 import { Check, CheckBox } from "@mui/icons-material";
+
 import "./styles.scss";
 
 const BuildingModern = () => {

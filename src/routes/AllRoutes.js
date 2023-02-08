@@ -7,7 +7,6 @@ import WebsiteLayout from "../layouts/website";
 // import DashboardSettingsLayout from "../layouts/dashboardSettings";
 import { HomePage } from "../pages/home";
 import { ContactPage } from "../pages/contactUs";
-import { AboutPage } from "../pages/aboutUs";
 import { OurVisionPage } from "../pages/ourVision";
 import { WhoWeArePage } from "../pages/whoWeAre";
 

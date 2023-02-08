@@ -1,16 +1,10 @@
 import React from "react";
-
-import { CheckBox } from "@mui/icons-material";
-import FeatureCard from "../../../ui/featureCard";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlaneDeparture } from "@fortawesome/free-solid-svg-icons";
 import { faHeadphonesSimple } from "@fortawesome/free-solid-svg-icons";
 import { faHeartPulse } from "@fortawesome/free-solid-svg-icons";
 import { faCloudBolt } from "@fortawesome/free-solid-svg-icons";
-
-import { faHourglass } from "@fortawesome/free-regular-svg-icons";
 import { faRecycle } from "@fortawesome/free-solid-svg-icons";
+
 import "./styles.scss";
 
 const WhyChoose = () => {

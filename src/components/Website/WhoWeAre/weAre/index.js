@@ -1,7 +1,5 @@
 import React from "react";
-import { Check, CheckBox } from "@mui/icons-material";
 import devGuy from "../../../../assets/images/guy-coding.png";
-import devGroup from "../../../../assets/images/dev-guy-team-ladies.png";
 
 import "./styles.scss";
 

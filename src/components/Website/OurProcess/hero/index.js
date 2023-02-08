@@ -1,5 +1,4 @@
 import React, { useCallback } from "react";
-import heroImg from "../../../../assets/images/dev-guy-team-ladies.png";
 import { Link } from "react-router-dom";
 
 import "./styles.scss";

@@ -1,7 +1,5 @@
 import React from "react";
-import { Check, CheckBox, CheckBoxSharp } from "@mui/icons-material";
 import ProcessCard from "../../../ui/processCard";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";

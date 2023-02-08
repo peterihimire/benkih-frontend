@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay } from "swiper";
 import { CheckBox } from "@mui/icons-material";
 import FeatureCard from "../../../ui/featureCard";
+
 import "./styles.scss";
 
 SwiperCore.use([Pagination]);

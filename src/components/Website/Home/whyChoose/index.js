@@ -1,16 +1,14 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay } from "swiper";
-import { CheckBox } from "@mui/icons-material";
 import FeatureCard from "../../../ui/featureCard";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faFingerprint } from "@fortawesome/free-solid-svg-icons";
 import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
-// import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
+
 import "./styles.scss";
 
 SwiperCore.use([Pagination]);
@@ -84,7 +82,7 @@ const WhyChoose = () => {
           className={"wrappe"}
           loop
           autoHeight={true}
-          // centeredSlides={false}
+          centeredSlides={false}
           speed={3000}
           // autoplay={{
           //   delay: 1000,

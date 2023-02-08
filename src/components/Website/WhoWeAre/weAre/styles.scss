@@ -120,16 +120,11 @@ body.dark-mode {
       grid-template-columns: repeat(2, 2fr);
       grid-auto-flow: dense;
 
-      // &:first-child {
-      //   grid-column: 2;
-      // }
-
       .left {
         grid-column: 2;
 
         .left-wrapper {
           img {
-            // height: 400px;
             max-width: 90%;
           }
         }
@@ -143,7 +138,6 @@ body.light-mode {
     position: relative;
     padding: 100px 0px;
     background-color: var(--gray-bg);
-    // background-color: #fff;
 
     .grid-who {
       display: grid;
@@ -161,7 +155,6 @@ body.light-mode {
 
         .left-wrapper {
           img {
-            // height: 400px;
             max-width: 85%;
           }
         }
@@ -260,10 +253,6 @@ body.light-mode {
     .grid-who.reverse {
       grid-template-columns: repeat(2, 2fr);
       grid-auto-flow: dense;
-
-      // &:first-child {
-      //   grid-column: 2;
-      // }
 
       .left {
         grid-column: 2;

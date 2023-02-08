@@ -1,7 +1,6 @@
 body.dark-mode {
   .mapTalent {
     width: var(--full);
-    // background: var(--secondary-dark);
     padding: 100px 0px;
 
     @media (max-width: 903px) {
@@ -14,25 +13,6 @@ body.dark-mode {
       flex-direction: column;
       align-items: center;
       margin-bottom: 50px;
-
-      // h6 {
-      //   font-size: 15px;
-      //   // font-family: Noto-Medium;
-      //   margin-bottom: 12px;
-      //   color: var(--main-color);
-      //   text-align: center;
-      // }
-
-      // h4 {
-      //   font-size: 30px;
-      //   // font-family: Noto-Bold;
-      //   max-width: 654px;
-      //   text-align: center;
-
-      //   @media (max-width: 600px) {
-      //     font-size: 32px;
-      //   }
-      // }
 
       h6 {
         color: var(--main-color);
@@ -180,25 +160,6 @@ body.light-mode {
       flex-direction: column;
       align-items: center;
       margin-bottom: 50px;
-
-      // h6 {
-      //   font-size: 15px;
-      //   // font-family: Noto-Medium;
-      //   margin-bottom: 12px;
-      //   color: var(--main-color);
-      //   text-align: center;
-      // }
-
-      // h4 {
-      //   font-size: 30px;
-      //   // font-family: Noto-Bold;
-      //   max-width: 654px;
-      //   text-align: center;
-
-      //   @media (max-width: 600px) {
-      //     font-size: 32px;
-      //   }
-      // }
 
       h6 {
         color: var(--main-color);

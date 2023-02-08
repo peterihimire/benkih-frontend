@@ -1,17 +1,9 @@
 import React from "react";
-import { Check } from "@mui/icons-material";
-// import { CheckSquareTwoTone } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import { faListCheck } from "@fortawesome/free-solid-svg-icons";
-
-// import { faPlaneDeparture } from "@fortawesome/free-solid-svg-icons";
-// import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
-import { faCalendarCheck } from "@fortawesome/free-regular-svg-icons";
 
 import "./styles.scss";
-import { fontSize } from "@mui/system";
 
 const BuildingModern = () => {
   return (
@@ -35,7 +27,6 @@ const BuildingModern = () => {
               <ul className="check-container">
                 <li className="check-completed">
                   <span>
-                    {/* <Check style={{ color: "#2568ef" }} /> */}
                     <FontAwesomeIcon
                       icon={faCheck}
                       style={{ color: "#2568ef" }}
@@ -45,7 +36,6 @@ const BuildingModern = () => {
                 </li>
                 <li className="check-completed">
                   <span>
-                    {/* <Check style={{ color: "#2568ef" }} /> */}
                     <FontAwesomeIcon
                       icon={faCheck}
                       style={{ color: "#2568ef" }}
@@ -55,7 +45,6 @@ const BuildingModern = () => {
                 </li>
                 <li className="check-completed">
                   <span>
-                    {/* <Check style={{ color: "#2568ef" }} /> */}
                     <FontAwesomeIcon
                       icon={faCheck}
                       style={{ color: "#2568ef" }}
@@ -65,7 +54,6 @@ const BuildingModern = () => {
                 </li>
                 <li className="check-completed">
                   <span>
-                    {/* <Check style={{ color: "#2568ef" }} /> */}
                     <FontAwesomeIcon
                       icon={faCheck}
                       style={{ color: "#2568ef" }}
@@ -75,23 +63,10 @@ const BuildingModern = () => {
                 </li>
               </ul>
             </div>
-
-            {/* <hr /> */}
-
-            {/* <div className={`left-bottom`}>
-              <h4>
-                Outstanding annual results from our <br /> awesome Team
-              </h4>
-            </div> */}
           </div>
           <div className={`right`}>
             <div className={`built-grid`}>
               <div className={`grid-item1`}>
-                {/* <CheckSquareTwoTone
-                  twoToneColor="#2568ef"
-                  style={{ fontSize: "100px", strokeWidth: "5" }}
-                /> */}
-
                 <div className={`icon-container`}>
                   <FontAwesomeIcon
                     icon={faLightbulb}
@@ -106,7 +81,6 @@ const BuildingModern = () => {
                 </p>
               </div>
               <div className={`grid-item2`}>
-                {/* <FontAwesomeIcon icon={faAddressBook} /> */}
                 <div className={`icon-container`}>
                   <FontAwesomeIcon
                     icon={faLightbulb}
@@ -134,7 +108,6 @@ const BuildingModern = () => {
                 </p>
               </div>
               <div className={`grid-item4`}>
-                {/* <FontAwesomeIcon icon={faPlaneDeparture} /> */}
                 <div className={`icon-container`}>
                   <FontAwesomeIcon
                     icon={faLightbulb}

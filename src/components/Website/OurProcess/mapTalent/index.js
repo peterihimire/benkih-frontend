@@ -14,7 +14,6 @@ const mapTalent = () => {
       <div className={`wrapper`}>
         <div className={`left`}>
           {/* <Video wrapperClass={styles.video} /> */}
-          {/* <TeamCollabo /> */}
           <img src={TeamCollaborate} alt="" className={`team-collaborate`} />
         </div>
 

@@ -2,8 +2,7 @@ body.dark-mode {
   .why-chose {
     position: relative;
     padding: 100px 0px;
-    background-color: #0000008e;
-    // background-color: #fff;
+    background-color: var(--dark-bg);
 
     .choose-head {
       text-align: center;
@@ -34,20 +33,18 @@ body.dark-mode {
     .custom-pag {
       display: flex;
       align-items: center;
-      margin-top: 50px;
-      // margin-bottom: 0px;
       justify-content: center;
+        margin-top: 20px;
+
 
       @media screen and (max-width: 1200px) {
         justify-content: center;
         margin-top: 20px;
-        margin-bottom: 50px;
       }
 
       @media screen and (max-width: 900px) {
         justify-content: center;
         margin-top: 20px;
-        margin-bottom: 50px;
       }
       @media screen and (max-width: 600px) {
         justify-content: center;
@@ -61,22 +58,19 @@ body.dark-mode {
         opacity: 1;
         margin: 0 3px !important;
         background-color: var(--gray-txt);
+
         &.swiper-pagination-bullet-active {
           width: 36px;
-
           display: flex;
           align-items: center;
           justify-content: center;
-          // opacity: 1;
           z-index: 2;
 
           &::before {
             content: "";
             width: 37px !important;
             height: 10px;
-            // background: var(--white);
             background: var(--main-color) !important;
-            // border-radius: 20%;
             border-top-right-radius: 10px !important;
             border-bottom-right-radius: 10px !important;
             border-top-left-radius: 10px !important;
@@ -127,20 +121,18 @@ body.light-mode {
     .custom-pag {
       display: flex;
       align-items: center;
-      margin-top: 50px;
-      // margin-bottom: 0px;
       justify-content: center;
+        margin-top: 20px;
+
 
       @media screen and (max-width: 1200px) {
         justify-content: center;
         margin-top: 20px;
-        margin-bottom: 50px;
       }
 
       @media screen and (max-width: 900px) {
         justify-content: center;
         margin-top: 20px;
-        margin-bottom: 50px;
       }
       @media screen and (max-width: 600px) {
         justify-content: center;
@@ -154,22 +146,19 @@ body.light-mode {
         opacity: 1;
         margin: 0 3px !important;
         background-color: var(--gray-txt);
+
         &.swiper-pagination-bullet-active {
           width: 36px;
-
           display: flex;
           align-items: center;
           justify-content: center;
-          // opacity: 1;
           z-index: 2;
 
           &::before {
             content: "";
             width: 37px !important;
             height: 10px;
-            // background: var(--white);
             background: var(--main-color) !important;
-            // border-radius: 20%;
             border-top-right-radius: 10px !important;
             border-bottom-right-radius: 10px !important;
             border-top-left-radius: 10px !important;

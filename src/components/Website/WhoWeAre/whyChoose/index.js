@@ -33,7 +33,7 @@ const WhyChoose = () => {
       icon: <FontAwesomeIcon icon={faHeartPulse} className={`mapped-icon`} />,
     },
     {
-      id: "03",
+      id: "04",
       title: "Fast Content Delivery",
       exerpt:
         "Learning day desirous informed expenses material returned six the.",

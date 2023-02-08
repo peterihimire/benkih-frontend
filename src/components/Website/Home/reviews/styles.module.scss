@@ -5,9 +5,19 @@
   .wrapper {
     width: 65%;
     margin: 0 auto;
+    height: 100%;
+    max-width: var(--wrapper-max-width);
 
-    @media screen and (max-width: 600px) {
+    @media (max-width: 1387px) {
       width: 90%;
+    }
+
+    @media (max-width: 1315px) {
+      width: 95%;
+    }
+
+    @media (max-width: 1264px) {
+      justify-content: space-between;
     }
 
     > h6 {

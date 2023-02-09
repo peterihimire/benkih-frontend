@@ -102,9 +102,6 @@ const Footer = () => {
               <li>
                 <Link to="/our-process">Our Process</Link>
               </li>
-              <li>
-                <Link to="/contact-us">Contact Us</Link>
-              </li>
             </ul>
           </div>
 
@@ -123,9 +120,6 @@ const Footer = () => {
           <div className={`location-wrapper`}>
             <h3>Platform</h3>
             <ul className={`quick-links`}>
-              <li>
-                <Link to="/">Contact Us</Link>
-              </li>
               <li>
                 <Link to="/products-services">Help Center</Link>
               </li>
@@ -150,9 +144,6 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/our-process">Site Map</Link>
-              </li>
-              <li>
-                <Link to="/contact-us">IP Whitelist</Link>
               </li>
             </ul>
             {/* <p>we are welcoming some new faces at Benkih to give you</p> */}

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Nav from "../nav";
 import { useLocation } from "react-router-dom";
 // import { ReactComponent as Logo } from "../../../assets/images/logo.svg";
-// import logo from "../../../assets/images/logo.svg";
 import "./styles.scss";
 
 const Header = ({ isOpen, clicked }) => {
@@ -48,8 +47,6 @@ const Header = ({ isOpen, clicked }) => {
         <div className="logo">
           <Link to="/">
             Benk<span>ih</span>
-            {/* <img src={logo} alt='' /> */}
-            {/* <Logo /> */}
           </Link>
         </div>
 
@@ -80,11 +77,4 @@ const Header = ({ isOpen, clicked }) => {
 };
 
 export default Header;
-// ${
-//   bgChange ||
-//   isOpen ||
-//   router.pathname === "/about-us" ||
-//   router.pathname === "/faq"
-//     ? "bgLight"
-//     : ""
-// }
+

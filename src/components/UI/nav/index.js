@@ -43,12 +43,6 @@ const Nav = ({ isOpen }) => {
             onClick={() => {
               openAbout(!about);
             }}
-            // onMouseEnter={() => {
-            //   openAbout(!about);
-            // }}
-            // onMouseLeave={() => {
-            //   openAbout(!about);
-            // }}
           >
             <span
               className={`${fullPath.includes("about-us") ? "active" : ""}`}

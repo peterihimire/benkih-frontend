@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { ArrowDownward, DarkModeOutlined } from "@mui/icons-material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+// import { faC } from "@fortawesome/free-regular-svg-icons";
+
 import { WbSunnyOutlined } from "@mui/icons-material";
 import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
 import useDarkMode from "use-dark-mode";
@@ -50,11 +54,20 @@ const Nav = ({ isOpen }) => {
               About Us
             </span>
             {about ? (
-              <KeyboardArrowDown
+              // <KeyboardArrowDown
+              //   className={`${fullPath.includes("about-us") ? "active" : ""}`}
+              // />
+
+              <FontAwesomeIcon
+                icon={faChevronDown}
                 className={`${fullPath.includes("about-us") ? "active" : ""}`}
               />
             ) : (
-              <KeyboardArrowDown
+              // <KeyboardArrowDown
+              //   className={`${fullPath.includes("about-us") ? "active" : ""}`}
+              // />
+              <FontAwesomeIcon
+                icon={faChevronDown}
                 className={`${fullPath.includes("about-us") ? "active" : ""}`}
               />
             )}

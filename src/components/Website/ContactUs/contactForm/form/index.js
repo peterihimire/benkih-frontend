@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import styles from "./styles.module.scss";
-import "./styles.scss";
 import Input from "../../../../ui/customInput";
 import Textarea from "../../../../ui/customTextarea";
 import { useLocation, Link, useNavigate } from "react-router-dom";
@@ -12,8 +10,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { CircularProgress } from "@mui/material";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import { Visibility } from "@mui/icons-material";
-import { VisibilityOff } from "@mui/icons-material";
+
+import "./styles.scss";
 
 const Form = () => {
   const navigate = useNavigate();
@@ -245,7 +243,7 @@ const Form = () => {
 
         <div className={`textarea`}>
           <Textarea
-            labelText="Inquiry"
+            labelText="Message"
             id="message"
             // required
             name="message"

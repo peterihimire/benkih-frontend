@@ -70,7 +70,7 @@ body.dark-mode {
         > a {
           font-size: 14px;
           color: var(--white);
-          font-family: Poppins-Medium, sans-serif;
+          font-family: NotoSans-Medium, sans-serif;
 
           @media (max-width: 1264px) {
             color: var(--white);
@@ -140,10 +140,10 @@ body.dark-mode {
             }
 
             > span {
-              margin-right: 5px;
+              margin-right: 7px;
               font-size: 14px;
               color: var(--white);
-              font-family: Poppins-Medium, sans-serif;
+              font-family: NotoSans-Medium, sans-serif;
 
               @media screen and (max-width: 900px) {
                 font-size: 16px;
@@ -294,7 +294,7 @@ body.dark-mode {
         flex-shrink: 0;
 
         > a {
-          font-family: Poppins-Medium, sans-serif;
+          font-family: NotoSans-Medium, sans-serif;
           width: 165px;
           height: 40px;
           display: flex;
@@ -382,7 +382,7 @@ body.light-mode {
         > a {
           font-size: 14px;
           color: var(--black);
-          font-family: Poppins-Medium, sans-serif;
+          font-family: NotoSans-Medium, sans-serif;
 
           @media (max-width: 1264px) {
             color: var(--head-txt) !important;
@@ -441,19 +441,23 @@ body.light-mode {
             }
 
             &:hover {
-              color: #004ef0;
+              color: var(--main-color);
               font-size: 15px;
 
               span {
-                color: #004ef0;
+                color: var(--main-color);
+              }
+
+              @media screen and (max-width: 900px) {
+                font-size: 16px;
               }
             }
 
             > span {
-              margin-right: 5px;
+              margin-right: 7px;
               font-size: 14px;
               color: var(--black);
-              font-family: Poppins-Medium, sans-serif;
+              font-family: NotoSans-Medium, sans-serif;
 
               @media (max-width: 905px) {
                 font-size: 16px;
@@ -606,7 +610,7 @@ body.light-mode {
         flex-shrink: 0;
 
         > a {
-          font-family: Poppins-Medium, sans-serif;
+          font-family: NotoSans-Medium, sans-serif;
           width: 165px;
           height: 40px;
           display: flex;

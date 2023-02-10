@@ -21,10 +21,10 @@ const reviews = () => {
             navigation
             loop
             speed={3000}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
           >
             <SwiperSlide>
               <div className={styles.reviewContent}>

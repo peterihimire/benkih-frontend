@@ -134,9 +134,18 @@ body.dark-mode {
           width: 100%;
         }
 
-        .get-started {
-          // max-width: 200px;
+       .get-started {
           margin-top: 30px;
+          display: flex;
+          align-items: center;
+
+          button {
+            margin-right: 20px;
+
+            &:last-of-type {
+              margin-right: 0px;
+            }
+          }
         }
       }
 
@@ -171,12 +180,6 @@ body.dark-mode {
     }
   }
 }
-
-
-
-
-
-
 
 body.light-mode {
   .hero-header {
@@ -273,7 +276,7 @@ body.light-mode {
           }
 
           @media screen and (max-width: 900px) {
-            max-width: 750px;
+            max-width: 650px;
             font-size: 60px;
             font-style: normal;
             line-height: 62px;
@@ -281,7 +284,7 @@ body.light-mode {
           }
 
           @media screen and (max-width: 700px) {
-            max-width: 300px;
+            max-width: 320px;
             font-size: 40px;
             font-style: normal;
             line-height: 50px;
@@ -315,8 +318,17 @@ body.light-mode {
         }
 
         .get-started {
-          // max-width: 200px;
           margin-top: 30px;
+          display: flex;
+          align-items: center;
+
+          button {
+            margin-right: 20px;
+
+            &:last-of-type {
+              margin-right: 0px;
+            }
+          }
         }
       }
 
@@ -351,14 +363,6 @@ body.light-mode {
     }
   }
 }
-
-
-
-
-
-
-
-
 
 // body.light-mode {
 //   .hero-header {

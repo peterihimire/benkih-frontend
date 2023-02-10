@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
-import { ArrowDownward, DarkModeOutlined } from "@mui/icons-material";
+import { NavLink, useLocation, Link } from "react-router-dom";
+import { ArrowDownward, DarkModeOutlined, Search } from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-// import { faC } from "@fortawesome/free-regular-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 import { WbSunnyOutlined } from "@mui/icons-material";
-import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
 import useDarkMode from "use-dark-mode";
 
 import "./styles.scss";
@@ -96,19 +95,40 @@ const Nav = ({ isOpen }) => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/" activeclassname="active">
+            Blog
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/contact-us" activeclassname="active">
             Contact Us
           </NavLink>
         </li>
+      </ul>
+      <div className={`nav-end`}>
+        <div className={`reg-btn`}>
+          <Link href="/register">
+            {/* <button className="btn-primary  btn-small">Get Started</button> */}
+            <button className="btn-secondary  btn-medium">Get Started</button>
+          </Link>
+        </div>
 
-        <li onClick={darkMode.toggle}>
+        <div className={`search-btn`}>
+          {darkMode.value ? (
+            <FontAwesomeIcon icon={faSearch} className={``} />
+          ) : (
+            <FontAwesomeIcon icon={faSearch} className={``} />
+          )}
+        </div>
+
+        <div onClick={darkMode.toggle}>
           {darkMode.value ? (
             <WbSunnyOutlined className="toggle-theme-dark" />
           ) : (
             <DarkModeOutlined className="toggle-theme-light" />
           )}
-        </li>
-      </ul>
+        </div>
+      </div>
     </nav>
   );
 };

@@ -8,7 +8,7 @@ const mapTalent = () => {
     <div className={`mapTalent`}>
       <div className={`lead`}>
         <h6>GROW YOUR COMPANY BY GROWING YOUR ASSETS</h6>
-        <h4>Quickly and simply map your company's cloud talent.</h4>
+        <h4>Quickly and Simply Map your Company's Cloud Talent.</h4>
       </div>
 
       <div className={`wrapper`}>

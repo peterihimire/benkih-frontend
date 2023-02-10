@@ -9,6 +9,12 @@ body.dark-mode {
       max-width: 800px;
       margin: 0 auto 0px auto;
 
+      @media screen and (max-width: 900px) {
+        max-width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       h6 {
         color: var(--main-color);
         text-transform: uppercase;
@@ -39,6 +45,12 @@ body.light-mode {
       text-align: center;
       max-width: 800px;
       margin: 0 auto 0px auto;
+
+      @media screen and (max-width: 900px) {
+        max-width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
       h6 {
         color: var(--main-color);

@@ -25,6 +25,11 @@ body.dark-mode {
         line-height: 26px;
         margin: 20px 0px 60px 0;
       }
+
+       @media screen and (max-width: 900px) {
+        max-width: 630px;
+        margin: 0 auto;
+      }
     }
     .feature-icon {
       font-size: 50px;
@@ -34,8 +39,7 @@ body.dark-mode {
       display: flex;
       align-items: center;
       justify-content: center;
-        margin-top: 20px;
-
+      margin-top: 20px;
 
       @media screen and (max-width: 1200px) {
         justify-content: center;
@@ -111,6 +115,11 @@ body.light-mode {
         line-height: 26px;
         margin: 20px 0px 60px 0;
       }
+
+      @media screen and (max-width: 900px) {
+        max-width: 630px;
+        margin: 0 auto;
+      }
     }
 
     .feature-icon {
@@ -122,8 +131,7 @@ body.light-mode {
       display: flex;
       align-items: center;
       justify-content: center;
-        margin-top: 20px;
-
+      margin-top: 20px;
 
       @media screen and (max-width: 1200px) {
         justify-content: center;

@@ -23,7 +23,8 @@ const Hero = () => {
             </p>
 
             <div className={`get-started`}>
-              <button className="btn-primary  btn-large">Get Started</button>
+              <button className="btn-primary  btn-medium">Get Started</button>
+              <button className="btn-secondary  btn-medium">Blog</button>
             </div>
           </div>
           <div className={`rightt indicator`}>

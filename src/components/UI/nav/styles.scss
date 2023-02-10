@@ -4,7 +4,8 @@ body.dark-mode {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    // justify-content: flex-end;
+    justify-content: space-between;
     margin-left: 200px;
 
     @media (max-width: 1264px) {
@@ -273,7 +274,22 @@ body.dark-mode {
     .nav-end {
       display: flex;
       align-items: center;
+      justify-content: center;
       height: 100%;
+
+      > div {
+        margin-right: 26px;
+
+        &:last-of-type {
+          margin-right: 0px;
+        }
+
+        @media (max-width: 1264px) {
+          margin-bottom: 40px;
+          width: var(--full);
+          margin-right: 0px;
+        }
+      }
 
       @media (max-width: 1264px) {
         flex-direction: column;
@@ -309,13 +325,12 @@ body.dark-mode {
 
 body.light-mode {
   .nav {
-    // @include themify($themes) {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    // justify-content: space-between;
-    justify-content: flex-end;
+    justify-content: space-between;
+    // justify-content: flex-end;
     margin-left: 200px;
 
     @media (max-width: 1264px) {
@@ -326,9 +341,7 @@ body.light-mode {
       z-index: 250;
       transition: left 0.4s ease-in-out;
       // transition: right 0.4s ease-in-out;
-
       background: var(--white);
-      // background: themed("bg");
       display: initial;
       justify-content: stretch;
       align-items: stretch;
@@ -589,7 +602,22 @@ body.light-mode {
     .nav-end {
       display: flex;
       align-items: center;
+      justify-content: center;
       height: 100%;
+
+      > div {
+        margin-right: 26px;
+
+        &:last-of-type {
+          margin-right: 0px;
+        }
+
+        @media (max-width: 1264px) {
+          margin-bottom: 40px;
+          width: var(--full);
+          margin-right: 0px;
+        }
+      }
 
       @media (max-width: 1264px) {
         flex-direction: column;

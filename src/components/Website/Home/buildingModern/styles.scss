@@ -17,6 +17,9 @@ body.dark-mode {
       .left {
         @media screen and (max-width: 900px) {
           margin-bottom: 30px;
+          max-width: 630px;
+          margin-left: auto;
+          margin-right: auto;
         }
         .left-top {
           h6 {
@@ -72,6 +75,11 @@ body.dark-mode {
       }
 
       .right {
+        @media screen and (max-width: 900px) {
+          max-width: 630px;
+          margin-left: auto;
+          margin-right: auto;
+        }
         .built-grid {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -222,6 +230,9 @@ body.light-mode {
       .left {
         @media screen and (max-width: 900px) {
           margin-bottom: 30px;
+          max-width: 630px;
+          margin-left: auto;
+          margin-right: auto;
         }
         .left-top {
           h6 {
@@ -277,6 +288,11 @@ body.light-mode {
       }
 
       .right {
+        @media screen and (max-width: 900px) {
+          max-width: 630px;
+          margin-left: auto;
+          margin-right: auto;
+        }
         .built-grid {
           display: grid;
           grid-template-columns: repeat(2, 1fr);

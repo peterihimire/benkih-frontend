@@ -1,7 +1,7 @@
 import React from "react";
 import SmallHero from "../../ui/smallHero";
 import WhyChoose from "./whyChoose";
-import BuildingModern from "./buildingModern";
+
 import { Helmet } from "react-helmet";
 
 const VisionPage = () => {
@@ -13,7 +13,6 @@ const VisionPage = () => {
 
       <SmallHero title={`Our Vision`} />
       <WhyChoose />
-      <BuildingModern />
     </div>
   );
 };

@@ -13,6 +13,12 @@ body.dark-mode {
       flex-direction: column;
       align-items: center;
 
+      @media screen and (max-width: 900px) {
+        max-width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       h3 {
         text-transform: uppercase;
         font-size: 30px;
@@ -42,6 +48,12 @@ body.light-mode {
       justify-content: center;
       flex-direction: column;
       align-items: center;
+
+      @media screen and (max-width: 900px) {
+        max-width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
       h3 {
         text-transform: uppercase;
